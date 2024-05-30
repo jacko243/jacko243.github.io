@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #ffffff;
+    margin: 0;
+    background-image: url('https://www.creativefabrica.com/wp-content/uploads/2020/08/16/brick-pattern-blue-background-Graphics-4990199-1.jpg');
+    background-size: cover;
+}
+
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background-color: #003087;
+    padding: 40px;
+    text-align: center;
+}
+
+.header-title {
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    margin: 0;
+}
+
+.header-subtitle {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 16px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 32px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #003087;
+    color: #fff;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+
+.content {
+    text-align: center;
+    padding: 40px;
+}
+
+.section-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 34px;
+    margin: 0 0 16px;
+}
+
+.section-content {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.skill-list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    background-color: #003087;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 14px;
+    font-size: 26px;
+    line-height: 1;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.project-list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-item {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.project-link {
+    text-align: center;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.project-description {
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.contact-list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-item {
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.contact-item:not(:last-child) {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #003087;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    margin: 0;
+}
